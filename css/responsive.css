@@ -70,5 +70,8 @@
 	    left: 5% !important;
 	    width: 100% !important;
 	}
+	.carousel-inner {
+	    height: 100% !important;
+	}
 
 }
