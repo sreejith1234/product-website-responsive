@@ -78,8 +78,19 @@
     	padding: 0px 10px;
     }
     .our-team {
-    	margin-left: 0rem!important;
+    	margin-left: 0rem !important;
 	}
-	
+	.container::before {
+    	left: 3% !important;
+    	width: 2px !important;
+	}
 
+}
+@media only screen and (max-width: 600px){
+	.entry:nth-child(even) .content, .entry:nth-child(odd) .content {
+	    transform: translate(0%, -9px) !important;
+	}
+
+.entry:nth-child(even) .time, .entry:nth-child(odd) .time {
+    transform: translate(-220%, -140%) !important;
 }
