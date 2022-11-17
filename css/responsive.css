@@ -6,7 +6,7 @@
 	.logo {
 	    left: 5.3%;
 	    top: 1%;
-	    width: 30px;
+	    width: 50px;
 	}
 	.carousel-indicator{
 		display: none !important;
@@ -16,7 +16,7 @@
 	}
 	.graph{
 	    width:100%;
-	    padding:100px 50px;
+	    padding:50px 25px;
 	}
 	.product-details {
     	width: 100%;
@@ -69,9 +69,17 @@
 	.carousel-caption-2 {
 	    left: 5% !important;
 	    width: 100% !important;
+	    top: 17% !important;
 	}
 	.carousel-inner {
 	    height: 100% !important;
 	}
+	#box-main {
+    	padding: 0px 10px;
+    }
+    .our-team {
+    	margin-left: 0rem!important;
+	}
+	
 
 }
