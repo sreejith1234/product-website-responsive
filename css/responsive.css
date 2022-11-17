@@ -94,3 +94,4 @@
 .entry:nth-child(even) .time, .entry:nth-child(odd) .time {
     transform: translate(-220%, -140%) !important;
 }
+}
