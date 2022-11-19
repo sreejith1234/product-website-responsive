@@ -1,8 +1,15 @@
 .hlv_content{
 	display: none;
 }
-
-
+.contact_icon_lg{
+	display: block;
+}
+.hide_icon_main{
+	display: none;
+}
+.menu_icon{
+	display: none;
+}
 @media only screen and (min-width:768px) and (max-width:992px){
 	
 }
@@ -17,6 +24,9 @@
 	
 }
 @media only screen and (max-width: 600px) {
+	.contact_icon_lg{
+		display: none;
+	}
 	.hlv_content{
 		display: block;
 	}
@@ -29,11 +39,11 @@
 	.about-head_rv{
 		font-family: 'Roboto-Light'!important;
     	font-size: 10px;
-    	text-align: left;
+    	text-align: center;
     	margin: 5px 0px;
 	}
 	.about-sub2_rv{
-    	text-align: left;
+    	text-align: center;
 	}
 	.al_rv{
 		margin-top:25px;
@@ -63,7 +73,7 @@
     	color: #afafaf;
 	}
 	.about-content_rv{
-		margin-top: 0px;
+		margin-top: 25px;
 	}
 	.about-content-sub1_rv{
 		margin-top: 0px;
@@ -80,9 +90,83 @@
 	.mt-rv2{
 		margin-top: 25px;
 	}
-	.section-sidebar{
+	.hide_icon_main{
+		display: block;
+	}
+	.menu_icon{
 		position: absolute;
+	    z-index: 1500;
+	    color: #5f5f5f;
+	    right: 35px;
+	    top: 20px;
+	    background: #e5e8f1;
+	    padding: 0px 7px;
+	    border-radius: 2px;
+	    display: block;
+	}
+	.section-sidebar {
 		display: none;
+    	position: absolute;
+    	z-index: 1600;
+    	right: 0;
+    	background: #e5e8f1;
+    	height: 100vh;
+    	width: 12.375rem;
+    	overflow: hidden;
+	}
+	.hide_icon_main{
+		width:100%;
+	}
+	.hide_icon {
+	    font-size: 20px;
+	    color: #5f5a5a;
+	    border: solid 1px #d5d5d5;
+	    line-height: 26px;
+	    padding: 0px;
+	    text-align: center;
+	    position: relative;
+	    left: 0;
+	    width: 30px;
+	    height: 30px;
+	    border-radius: 2px;
+	}
+	.side-menu {
+    	width: auto;
+    	height: auto;
+    	overflow-y: auto;
+	}
+	.side-menu .products {
+    	width: 100%;
+    	min-height: 20px;
+    	position: relative;
+    	border-bottom: solid 1px #d5d5d5;
+	}
+	.side-menu .products h3 {
+	    margin-bottom: 0px;
+	    padding: 15px 15px;
+	    font-family: 'Helvetica-Regular';
+	    font-size: 12px;
+	    color: #101d42;
+	    font-weight: 600;
+	    letter-spacing: 1px;
+	    text-align: left;
+	    position: relative;
+	    top: 0px;
+	    left: 0px;
+	    margin-left: 0px;
+	    -webkit-transform: rotate(0deg);
+	    -moz-transform: rotate(0deg);
+	    -ms-transform: rotate(0deg);
+	    -o-transform: rotate(0deg);
+	    transform: rotate(0deg); */
+	    -webkit-transform-origin: 0 0;
+	    -moz-transform-origin: 0 0;
+	    -ms-transform-origin: 0 0;
+	    -o-transform-origin: 0 0;
+	    transform-origin: 0 0;
+	}
+	.side-menu a{
+		text-decoration: none;
 	}
 	.logo {
 	    left: 5.3%;
